@@ -260,5 +260,17 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
     },
+    icon: {
+        width: 25,
+        height: 25,
+        resizeMode: "contain",
+        borderRadius: 50,
+    },
+    iconImage: {
+        width: 30,
+        height: 30,
+        borderRadius: 50,
+        resizeMode: "contain",
+    },
 })
 export default AnnonceScreen
